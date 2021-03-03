@@ -5,7 +5,7 @@ un boolean pour vérifier si la pyramide sera générée à l'envers ou à l'end
 une string(un caractère) qui sera le motif à afficher contrairement à l'exemple du cours qui affiche par défaut le caractère *. */
 
 
-const showStars = (nbBase, reverse, caract) => {
+const Pyrmd = (nbBase, reverse, caract) => {
   let str = ''
   if (!reverse) {
     for (let i = 1; i <= nbBase; ++i) {
@@ -26,5 +26,5 @@ const showStars = (nbBase, reverse, caract) => {
 }
 
 
-let stri = showStars(16, false, '#')
+let stri = Pyrmd(16, false, '#')
 console.log(stri)
