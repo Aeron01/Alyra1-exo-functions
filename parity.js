@@ -2,7 +2,7 @@
 
 const isOdd = (nb) => {
   nb = (nb % 2 === 0) ? false : true;
-  return `This number is odd ? ${nb}`
+  return `Is this number odd ? ${nb}`
 }
 let nb = 12
 console.log(isOdd(nb))
