@@ -3,5 +3,5 @@
 const isOdd = (nb) => {
   return (nb % 2 === 0) ? false : true;
 }
-let nb = 12
+let nb = 13
 console.log(isOdd(nb))
