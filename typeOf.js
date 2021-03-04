@@ -17,5 +17,5 @@ const typeOf = (myVar) => {
   return typeof myVar
 }
 
-console.log(typeOf(1))
-console.log(typeof (1, 2, 3))
+console.log(typeOf(1)) // output (résultat attendu): number
+console.log(typeof ([1, 2, 3])) // output (résultat attendu): object

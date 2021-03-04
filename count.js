@@ -17,4 +17,4 @@ const count1 = (min, max, step) => {
   }
 }
 
-count1(0, 100, 3)
+count1(1, 100, 3)
