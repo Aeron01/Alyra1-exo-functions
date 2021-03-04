@@ -3,8 +3,14 @@
 const reverseStr = (str) => {
   return str.split('').reverse().join('');
 }
+const isPalindrome = (str) => {
+  if (reverseStr(str) === str) {
+    return true
+  } else
+    return false
+}
 
-
-let str = "? ediS kraD eht of rewop eht etatsrevo t'noD"
-console.log(str)
-console.log(reverseStr(`${str}`))
+/* let str = "hello"
+console.log(str)*/    // ligne 13 et 14 serve à la vérification
+console.log(reverseStr('hello!'))
+console.log(isPalindrome('elle'))
