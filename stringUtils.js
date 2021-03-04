@@ -10,7 +10,6 @@ const isPalindrome = (str) => {
     return false
 }
 
-/* let str = "hello"
-console.log(str)*/    // ligne 13 et 14 serve à la vérification
-console.log(reverseStr('hello!'))
-console.log(isPalindrome('elle'))
+
+console.log(reverseStr("? ediS kraD eht fo rewop eht etatsrevo t'noD"))
+console.log(isPalindrome('ellelle'))
