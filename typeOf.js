@@ -9,3 +9,13 @@ const names = ['Vador', 1, tostring, console]
 for (let i = 0; i < names.length; ++i) {
   console.log(tostring(typeof (names[i])))
 }
+
+
+// correction
+
+const typeOf = (myVar) => {
+  return typeof myVar
+}
+
+console.log(typeOf(1))
+console.log(typeof (1, 2, 3))

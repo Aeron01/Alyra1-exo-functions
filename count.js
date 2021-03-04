@@ -8,3 +8,13 @@ const count = (min, max, step) => {
 }
 
 count(1, 100, 3)
+
+
+// correction
+const count1 = (min, max, step) => {
+  for (let i = min; i <= max; i += step) {
+    console.log(i)
+  }
+}
+
+count1(0, 100, 3)
