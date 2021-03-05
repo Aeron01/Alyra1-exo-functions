@@ -5,7 +5,7 @@ const biggest = (array) => {
 
   for (let i = 1; i < array.length; i++) {
     let value = array[i]
-    max = (value > max) ? value : max
+    max = value > max ? value : max
   }
 
   return max
