@@ -35,18 +35,17 @@ const div = (nb1, nb2) => {
 const calc = (op, nb1, nb2) => {
   switch (op) {
     case '+':
-      console.log(add(nb1, nb2))
-      break
+      return add(nb1, nb2)
     case '-':
-      console.log(sub(nb1, nb2))
-      break
+      return sub(nb1, nb2)
+    case 'x':
     case '*':
-      console.log(mul(nb1, nb2))
-      break
+      return mul(nb1, nb2)
     case '/':
     case ':':
-      console.log(div(nb1, nb2))
-      break
+      return div(nb1, nb2)
+    default:
+      return console.log('Error unknow operator')
   }
 }
 
