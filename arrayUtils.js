@@ -8,10 +8,10 @@ const biggest = (array) => {
     max = value > max ? value : max
   }
 
-  return max
+  return console.log(`"${array}" - Dans cette suite de nombres quelle est plus grand ? Réponse : ${max}`)
 }
 
-console.log(biggest([99, 100, 101, 1])) // returns 101
+biggest([99, 100, 101, 1]) // returns 101
 
 
 const sortAscend = (tab) => {
